@@ -1,0 +1,49 @@
+.credentialComponent {
+  height: 70%; }
+  .credentialComponent .fields {
+    width: 400px;
+    border: 30px; }
+    .credentialComponent .fields span {
+      font-size: 19px;
+      color: #6997ED;
+      cursor: pointer; }
+    .credentialComponent .fields button {
+      width: 100%;
+      padding: 11px;
+      border-radius: 0;
+      font-size: 20px;
+      background-color: #6997ED;
+      color: white;
+      cursor: pointer; }
+    .credentialComponent .fields form {
+      margin: 0 !important; }
+    .credentialComponent .fields .textFields {
+      background-color: #34495E;
+      padding: 13px 10px 13px 10px; }
+      .credentialComponent .fields .textFields .group {
+        width: 100%; }
+      .credentialComponent .fields .textFields input {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding: 7px;
+        width: 95%;
+        border-radius: 0.20em; }
+      .credentialComponent .fields .textFields .customPlaceholder::-webkit-input-placeholder {
+        font-size: 20px;
+        vertical-align: center; }
+      .credentialComponent .fields .textFields .customPlaceholder::-moz-placeholder {
+        font-size: 20px; }
+
+.headerComponent {
+  height: 100px; }
+
+body {
+  background-color: #ebebeb; }
+  body .container-fluid {
+    padding: 0px; }
+  body .p-2 {
+    padding: 0px; }
+
+.mainComponent {
+  min-height: 400px;
+  height: 100vh; }
